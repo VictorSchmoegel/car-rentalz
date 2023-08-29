@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #525252;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header_pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.header_pages ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: auto;
+}
+
+.header_button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.singin_button {
+  width: 100px;
+  height: 30px;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #525252;
+  color: #f0f0f0;
+}
+
+.register_button {
+  width: 100px;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #525252;
+  color: #f0f0f0;
+}
+
+.header_pages li:hover {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+.singin_button:hover {
+  background-color: #f0f0f0;
+  color: #525252;
+  cursor: pointer;
+}
+
+.register_button:hover {
+  background-color: #f0f0f0;
+  color: #525252;
+  cursor: pointer;
+}
