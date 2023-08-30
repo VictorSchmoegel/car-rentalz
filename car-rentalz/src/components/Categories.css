@@ -1,0 +1,51 @@
+.categories_section {
+  display: flex;
+}
+
+.categories_container {
+  margin: 0 auto!important;
+  max-width: 133rem!important;
+  padding: 100px 2.5rem!important;
+}
+
+.categories_content {
+  margin: 0 auto 10rem;
+}
+
+.categories_box {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+  color: #fff;
+  color: #525252;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 4.5rem 5rem 5.5rem;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+  margin: auto;
+}
+
+.categories_title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.categories_list {
+  display: flex;
+}
+
+.categories_list ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.img_list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
