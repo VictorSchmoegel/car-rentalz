@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import FormRental from '../components/FormRental';
+import Categories from '../components/Categories';
 
 import home_img from '../../src/assets/images/home_car.jpg'
 import './Home.css'
@@ -36,6 +37,7 @@ function Home() {
       <div ref={ formRef }>
         <FormRental />
       </div>
+      <Categories />
     </section>
   )
 }

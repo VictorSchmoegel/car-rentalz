@@ -34,6 +34,7 @@
 }
 
 .main_form {
+  display: flex;
   grid-gap: 2rem;
   display: grid;
   gap: 2rem;
