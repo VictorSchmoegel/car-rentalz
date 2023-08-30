@@ -61,11 +61,17 @@ section {
   width: 200px;
   height: 50px;
   background-color: rgb(218, 185, 3);
+  box-shadow: 0 10px 15px rgba(255, 189, 48, 0.35);
   border-radius: 5px;
   margin-bottom: 20px;
   cursor: pointer;
   border-style: none;
   font-weight: bold;
+}
+
+.rent_button:hover {
+  background-color: #525252;
+  color: rgb(218, 185, 3);
 }
 
 .home_img {

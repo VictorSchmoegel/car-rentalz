@@ -1,0 +1,108 @@
+.form_section {
+  background: linear-gradient(180deg,#f8f8f8 20%,#fff 80%);
+  position: relative;
+}
+
+.form_container {
+  margin: 0 auto!important;
+  max-width: 133rem!important;
+  padding: 100px 2.5rem!important;
+}
+
+.form_content {
+  margin: 0 auto 10rem;
+}
+
+.form_box {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+  color: #fff;
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 4rem 4.5rem 5rem 5.5rem;
+  position: relative;
+  width: 80%;
+  z-index: 4;
+  margin: auto;
+}
+
+.form_title {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.main_form {
+  grid-gap: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.form_select_car {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_select_car label {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.form_select_car select {
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  color: #525252;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding: 1.2rem 1.3rem;
+}
+
+.form_withdraw_date {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form_withdraw_date label {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.form_withdraw_date input {
+  border: 1px solid #ccd7e6;
+  color: #525252;
+  outline: none;
+  padding-right: 3rem;
+}
+
+
+.form_btn_search {
+  align-self: self-end;
+  border: none;
+  background-color: rgb(218, 185, 3);
+  box-shadow: 0 10px 15px rgba(255, 189, 48, 0.35);
+  color: #525252;
+  cursor: pointer;
+  font-family: Rubik,sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  padding: 1.3rem;
+  transition: all .3s;
+}
+
+.form_btn_search:hover {
+  background-color: #525252;
+  color: rgb(218, 185, 3);
+}
