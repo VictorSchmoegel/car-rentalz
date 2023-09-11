@@ -20,10 +20,10 @@ function CardModels() {
                 <div className="models_div_box_text">
                   <div className="models_div_box_text_name_price">
                     <div className="models_div_box_text_name_price_name">
-                      <p>Audi A1</p>
+                      <p>HB20</p>
                     </div>
                     <div className="models_div_box_text_name_price_price">
-                      <h4>$45</h4>
+                      <h4>R$ 75,00</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -50,10 +50,10 @@ function CardModels() {
                 <div className="models_div_box_text">
                   <div className="models_div_box_text_name_price">
                     <div className="models_div_box_text_name_price_name">
-                      <p>Audi A1</p>
+                      <p>T-Cross</p>
                     </div>
                     <div className="models_div_box_text_name_price_price">
-                      <h4>$45</h4>
+                      <h4>R$ 180,00</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -80,19 +80,19 @@ function CardModels() {
                 <div className="models_div_box_text">
                   <div className="models_div_box_text_name_price">
                     <div className="models_div_box_text_name_price_name">
-                      <p>Audi A1</p>
+                      <p>Fiat Toro</p>
                     </div>
                     <div className="models_div_box_text_name_price_price">
-                      <h4>$45</h4>
+                      <h4>R$ 350,00</h4>
                       <p>per day</p>
                     </div>
                   </div>
                   <div className="models_div_box_text_name_price_price_details">
                     <span>
-                       &nbsp; Manual
+                      Automatic
                     </span>
                     <span>
-                      Diesel &nbsp;
+                      Diesel
                     </span>
                   </div>
                   <div className="models_div_box_btn">
@@ -110,19 +110,19 @@ function CardModels() {
                 <div className="models_div_box_text">
                   <div className="models_div_box_text_name_price">
                     <div className="models_div_box_text_name_price_name">
-                      <p>Audi A1</p>
+                      <p>Fiat Doblo</p>
                     </div>
                     <div className="models_div_box_text_name_price_price">
-                      <h4>$45</h4>
+                      <h4>R$ 233,00</h4>
                       <p>per day</p>
                     </div>
                   </div>
                   <div className="models_div_box_text_name_price_price_details">
                     <span>
-                       &nbsp; Manual
+                      Automatic
                     </span>
                     <span>
-                      Diesel &nbsp;
+                      Gasoline
                     </span>
                   </div>
                   <div className="models_div_box_btn">
@@ -140,19 +140,19 @@ function CardModels() {
                 <div className="models_div_box_text">
                   <div className="models_div_box_text_name_price">
                     <div className="models_div_box_text_name_price_name">
-                      <p>Audi A1</p>
+                      <p>Jeep Renegade</p>
                     </div>
                     <div className="models_div_box_text_name_price_price">
-                      <h4>$45</h4>
+                      <h4>R$ 180,00</h4>
                       <p>per day</p>
                     </div>
                   </div>
                   <div className="models_div_box_text_name_price_price_details">
                     <span>
-                       &nbsp; Manual
+                      Automatic
                     </span>
                     <span>
-                      Diesel &nbsp;
+                      Diesel
                     </span>
                   </div>
                   <div className="models_div_box_btn">
@@ -170,19 +170,19 @@ function CardModels() {
                 <div className="models_div_box_text">
                   <div className="models_div_box_text_name_price">
                     <div className="models_div_box_text_name_price_name">
-                      <p>Audi A1</p>
+                      <p>Chev S10</p>
                     </div>
                     <div className="models_div_box_text_name_price_price">
-                      <h4>$45</h4>
+                      <h4>R$ 350,00</h4>
                       <p>per day</p>
                     </div>
                   </div>
                   <div className="models_div_box_text_name_price_price_details">
                     <span>
-                       &nbsp; Manual
+                      Automatic
                     </span>
                     <span>
-                      Diesel &nbsp;
+                      Gasoline
                     </span>
                   </div>
                   <div className="models_div_box_btn">
