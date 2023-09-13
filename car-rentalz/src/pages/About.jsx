@@ -9,12 +9,10 @@ import planicon1 from '../assets/images/about_images/plan_icon1.png';
 import planicon2 from '../assets/images/about_images/plan_icon2.png';
 import planicon3 from '../assets/images/about_images/plan_icon3.png';
 import Lottie from 'lottie-react';
-import HeaderPages from "../components/HeaderPages";
 
 function About() {
   return (
     <section className="about_page">
-      <HeaderPages title="About" />
       <div className="about_container">
         <div className="about_main">
           <img className="about_main_img" src={about_img} alt="img of a car"></img>

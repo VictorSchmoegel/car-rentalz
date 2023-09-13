@@ -83,6 +83,30 @@ section {
 }
 
 #hero_img {
+  display: flex;
   width: 80%;
   height: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .home_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #hero_img {
+    display: none;
+  }
 }
