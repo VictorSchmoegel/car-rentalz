@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import FormRental from '../components/FormRental';
+import React, { useRef, useState } from 'react';
+import FormRental from '../components/FormRental/FormRental';
 import Categories from '../components/Categories';
 import Footer from '../components/Footer';
 
@@ -12,6 +12,13 @@ function Home() {
   const handleSubmit = (event) => {
     event.preventDefault();
     formRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const [bookRental, setBookRental] = useState([]);
+
+  const addBookRental = (newBookRental) => {
+    console.log(newBookRental);
+    setBookRental([...bookRental, newBookRental]);
   }
 
   return (
@@ -36,7 +43,7 @@ function Home() {
         </div>
       </div>
       <div ref={ formRef }>
-        <FormRental />
+        <FormRental onChanged={value => addBookRental(value)}/>
       </div>
       <Categories />
       <Footer />
