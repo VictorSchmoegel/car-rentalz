@@ -1,3 +1,4 @@
+import TextInput from '../TextInput';
 import './Footer.css'
 
 function Footer() {
@@ -23,14 +24,13 @@ function Footer() {
                 <p>Subscribe your Email address for latest news & updates</p>.
               </li>
               <li>
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                >
-                </input>
+                <TextInput 
+                  type='email'
+                  placeholder='Enter your email'
+                />
               </li>
               <li>
-                <button>Submit</button>
+              <button id='footer_button'>Submit</button>
               </li>
             </ul>
         </div>

@@ -1,0 +1,51 @@
+footer {
+  background-color: black;
+  color: #525252;
+  padding: 1rem 0;
+}
+
+.footer_container {
+  margin: 0 auto!important;
+  max-width: 133rem!important;
+  padding: 0 2.5rem!important;
+}
+
+.footer_content {
+  grid-gap: 8rem;
+  color: #ffffffc5;
+  display: grid;
+  gap: 8rem;
+  grid-template-columns: 30fr 30fr 30fr;
+  text-align: left;
+  align-items: center;
+}
+
+#car_footer {
+  color: rgb(218, 185, 3);
+}
+
+#rentalz_footer {
+  color: #525252
+}
+
+.footer_content ul {
+  list-style: none;
+}
+
+.footer_content li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+#footer_button {
+  border: none;
+  background-color: rgb(218, 185, 3);
+  box-shadow: 0 10px 15px rgba(255, 189, 48, 0.35);
+  color: #525252;
+  cursor: pointer;
+  font-family: Rubik,sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1.3rem;
+  width: 100%;
+}
