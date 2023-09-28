@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 import FormRental from '../components/FormRental/FormRental';
 import Categories from '../components/Categories';
 import Footer from '../components/Footer';
-
 import home_img from '../../src/assets/images/home_car.jpg'
 import './Home.css'
 

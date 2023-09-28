@@ -3,6 +3,7 @@ import './FormRental.css';
 import ListSelect from '../ListSelect';
 import DataInput from '../DataInput';
 import FormButton from '../FormButton';
+import ModalForm from '../ModalForm';
 
 function FormRental(props) {
   const carType = [
@@ -28,6 +29,7 @@ function FormRental(props) {
   const [dropOfCity, setDropOfCity] = useState('');
   const [withdralDate, setWithdralDate] = useState('');
   const [dropOfDate, setDropOfDate] = useState('');
+  const [openModal, setOpenModal] = useState(false);
   const [error, setError] = useState(false);
 
   const handleSubmit = (event) => {
@@ -36,6 +38,7 @@ function FormRental(props) {
       setError(true);
       return;
     }
+    setOpenModal(!openModal);
     props.onChanged({
       car,
       withdralCity,
@@ -85,6 +88,9 @@ function FormRental(props) {
             </form>
             {
               error && <p className='form_error'>Please, fill in all fields</p>
+            }
+            {
+              openModal && <ModalForm isOpen={ openModal } title="Confirmation Form" />
             }
           </div>
         </div>
