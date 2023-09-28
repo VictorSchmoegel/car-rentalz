@@ -1,18 +1,17 @@
 import './TextInput.css'
 
-function TextInput(props) {
+function TextInput({onChange, type, label, value}) {
   const handleChange = (event) => {
-    props.onChange(event.target.value);
+    onChange(event.target.value);
     console.log(event.target.value);
   }
 
   return (
     <div className='text_input_container'>
-      <label className='text_input_label'>{props.label}</label>
+      <label className='text_input_label'>{ label }</label>
       <input
         className='text_input'
-        type={props.type}
-        value={props.value}
+        value={ value }
         onChange={handleChange}
       />
     </div>
