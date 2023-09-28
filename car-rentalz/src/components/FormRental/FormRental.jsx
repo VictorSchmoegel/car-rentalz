@@ -30,6 +30,7 @@ function FormRental(props) {
   const [withdralDate, setWithdralDate] = useState('');
   const [dropOfDate, setDropOfDate] = useState('');
   const [openModal, setOpenModal] = useState(false);
+
   const [error, setError] = useState(false);
 
   const handleSubmit = (event) => {
@@ -84,13 +85,13 @@ function FormRental(props) {
                 value={dropOfDate}
                 onChange={value => setDropOfDate(value)}
               />
-              <FormButton>Search</FormButton>
+              <FormButton onClick={() => setOpenModal(!openModal)}>Search</FormButton>
             </form>
             {
               error && <p className='form_error'>Please, fill in all fields</p>
             }
             {
-              openModal && <ModalForm isOpen={ openModal } title="Confirmation Form" />
+              openModal && <ModalForm isOpen={ openModal } setOpenModal={setOpenModal}/>
             }
           </div>
         </div>
