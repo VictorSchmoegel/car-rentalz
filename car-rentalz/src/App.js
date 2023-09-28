@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Models from './pages/Models';
-import Testimonials from './pages/Testimonials/Testimonials';
+import Testimonials from './pages/Testimonials';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/models" element={<Models />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          console.log(Routes);
         </Routes>
       </div>
   );

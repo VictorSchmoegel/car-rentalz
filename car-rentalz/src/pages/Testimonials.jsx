@@ -1,5 +1,5 @@
-import Footer from '../../components/Footer';
-import image01 from '../../assets/images/testimonials/testimonials01.png';
+import Footer from "../components/Footer";
+import image01 from '../assets/images/testimonials/testimonials01.png';
 import './Testimonials.css'
 
 function Testimonials() {
