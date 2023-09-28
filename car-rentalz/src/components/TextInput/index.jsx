@@ -1,6 +1,6 @@
 import './TextInput.css'
 
-function TextInput({onChange, type, label, value}) {
+function TextInput({onChange, type, label, value, placeholder}) {
   const handleChange = (event) => {
     onChange(event.target.value);
     console.log(event.target.value);
@@ -13,6 +13,7 @@ function TextInput({onChange, type, label, value}) {
         className='text_input'
         value={ value }
         onChange={handleChange}
+        placeholder={ placeholder }
       />
     </div>
   );
