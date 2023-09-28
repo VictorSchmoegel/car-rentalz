@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Models from './pages/Models';
 import Testimonials from './pages/Testimonials';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/models" element={<Models />} />
           <Route path="/testimonials" element={<Testimonials />} />
-          console.log(Routes);
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
   );
