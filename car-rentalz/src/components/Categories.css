@@ -15,14 +15,12 @@
 .categories_box {
   border-radius: 5px;
   box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
-  color: #fff;
   color: #525252;
   display: flex;
   flex-direction: column;
   padding: 4rem 4.5rem 5rem 5.5rem;
   position: relative;
   width: 100%;
-  z-index: 4;
   margin: auto;
 }
 
@@ -48,4 +46,22 @@
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
+}
+
+@media screen and (max-width: 1480px) {
+
+  .categories_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categories_list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .categories_section {
+    margin-top: 0;
+  }
 }

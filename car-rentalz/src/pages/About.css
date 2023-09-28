@@ -1,0 +1,107 @@
+.about_container {
+  margin: 0 auto!important;
+  max-width: 133rem!important;
+  padding: 0 2.5rem!important;
+}
+
+.about_main {
+  margin: 10rem;
+  display: flex;
+  gap: 5rem;
+  max-width: 90rem;
+  align-items: center;
+}
+
+.about_main_img {
+  width: 35rem;
+  height: 25rem;
+  border-radius: 10px;
+  box-shadow: #010103 0px 0px 10px 0px;
+}
+
+.about_main_text {
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.about_p {
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.about_main_text_icons {
+  grid-gap: 4rem;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about_main_text_icons_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon_img {
+  width: 5rem;
+}
+
+.span_icons {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.h4_icons {
+  font-size: 2rem;
+}
+
+.p_icons {
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about_trip_plan {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 10rem;
+  max-width: 90rem;
+  text-align: center;
+}
+
+.about_trip_plan_text {
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.about_trip_plan_steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.trip_icons {
+  width: 7rem;
+}
+
+.About_trip_plan_icon_animation {
+  width: 7rem;
+}

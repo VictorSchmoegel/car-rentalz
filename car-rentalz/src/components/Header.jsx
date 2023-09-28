@@ -1,21 +1,23 @@
 import logo from '../../src/assets/images/logo.jpg'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
-function Hearder() {
+function Header() {
+
   return (
     <header>
       <div className='container'>
         <div className='content'>
           <div className='header_logo'>
-            <img src={ logo } alt='logo' />
+            <img src={logo} alt='logo' />
           </div>
           <div className='header_pages'>
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Models</li>
-              <li>Testimonials</li>
-              <li>Contact</li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/models">Models</Link></li>
+              <li><Link to="/testimonials">Testimonials</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
           <div className='header_button'>
@@ -28,4 +30,4 @@ function Hearder() {
   )
 }
 
-export default Hearder;
+export default Header;
