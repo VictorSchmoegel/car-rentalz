@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import './About.css';
 import about_img from '../assets/images/about_images/about_img.jpg';
 import img1 from '../assets/images/about_images/carro_icon1.png';

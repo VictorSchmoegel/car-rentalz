@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import image01 from '../assets/images/testimonials/testimonials01.png';
 import './Testimonials.css'
 

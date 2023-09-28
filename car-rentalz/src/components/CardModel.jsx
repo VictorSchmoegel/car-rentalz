@@ -5,7 +5,7 @@ import renegade from '../assets/images/model/renegade.png'
 import s10 from '../assets/images/model/s10.png'
 import t_cross from '../assets/images/model/t_cross.png'
 import { Link } from "react-router-dom";
-import Footer from './Footer'
+import Footer from './Footer/Footer'
 import './CardModel.css'
 
 function CardModels() {
